@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ImageIcon, Loader } from 'lucide-react';
+import { Image as ImageIcon, Loader } from 'lucide-react';
 import { useDispatch, useSelector } from 'react-redux';
 import { login } from '@/redux/AsyncThunk';
 import { useToast } from '@/hooks/use-toast';
